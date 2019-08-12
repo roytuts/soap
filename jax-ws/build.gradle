@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+    id 'war'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+	maven {
+		url 'http://maven.java.net/content/repositories/staging/'
+	}    
+}
+
+dependencies {
+    implementation 'javax.xml.ws:jaxws-api:2.3.1'
+    implementation 'com.sun.xml.ws:jaxws-rt:2.3.1'
+    implementation 'org.glassfish.jaxb:txw2:2.4.0-b180608.0325'
+}
