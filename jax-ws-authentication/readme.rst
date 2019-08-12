@@ -1,0 +1,1 @@
+You can read tutorial https://www.jeejava.com/authentication-example-in-jax-ws-webservice/
