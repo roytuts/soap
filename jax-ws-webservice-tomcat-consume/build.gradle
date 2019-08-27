@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+    id "com.github.bjornvester.wsdl2java" version "0.2"
+}
+
+sourceCompatibility = 12
+targetCompatibility = 12
+
+repositories {
+    mavenCentral()
+    maven {
+		url 'http://maven.java.net/content/repositories/staging/'
+	}
+}
+
+dependencies {
+	implementation 'com.sun.xml.ws:rt:2.3.1'
+	implementation 'org.glassfish.jaxb:txw2:2.4.0-b180608.0325'
+}
+
+wsdl2java {
+	cxfVersion.set("3.3.2")
+}
