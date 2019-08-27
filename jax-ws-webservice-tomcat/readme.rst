@@ -1,0 +1,1 @@
+You can read tutorial https://www.jeejava.com/jax-ws-webservice-deployment-example-in-tomcat-server/
