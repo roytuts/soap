@@ -56,7 +56,7 @@ task jaxb {
 
         ant.xjc(
 			destdir: '${jaxbTargetDir}',
-			package: 'com.jeejava.jaxb',
+			package: 'com.roytuts.jaxb',
 			schema: 'src/main/resources/xsd/user.xsd'
         )
     }

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.jeejava</groupId>
+	<groupId>com.roytuts</groupId>
 	<artifactId>soap-send-file</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -47,7 +47,7 @@
 							<goal>wsgen</goal>
 						</goals>
 						<configuration>
-							<sei>com.jeejava.soap.service.impl.FileSendServiceImpl</sei>
+							<sei>com.roytuts.soap.service.impl.FileSendServiceImpl</sei>
 							<genWsdl>true</genWsdl>
 						</configuration>
 					</execution>

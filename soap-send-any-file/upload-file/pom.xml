@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.jeejava</groupId>
+	<groupId>com.roytuts</groupId>
 	<artifactId>upload-file</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -79,7 +79,7 @@
 							<!-- Keep generated files -->
 							<keep>true</keep>
 							<!-- Package name -->
-							<packageName>com.jeejava.soap.stubs</packageName>
+							<packageName>com.roytuts.soap.stubs</packageName>
 							<!-- generated source files destination -->
 							<sourceDestDir>${basedir}/target/generated-classes</sourceDestDir>
 						</configuration>

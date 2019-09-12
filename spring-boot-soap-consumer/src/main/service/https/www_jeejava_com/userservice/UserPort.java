@@ -1,4 +1,4 @@
-package https.www_jeejava_com.userservice;
+package https.www_roytuts_com.userservice;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -13,15 +13,15 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * Generated source version: 3.1.10
  * 
  */
-@WebService(targetNamespace = "https://www.jeejava.com/UserService", name = "UserPort")
+@WebService(targetNamespace = "https://www.roytuts.com/UserService", name = "UserPort")
 @XmlSeeAlso({ObjectFactory.class})
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 public interface UserPort {
 
     @WebMethod
-    @WebResult(name = "getUserDetailsResponse", targetNamespace = "https://www.jeejava.com/UserService", partName = "getUserDetailsResponse")
+    @WebResult(name = "getUserDetailsResponse", targetNamespace = "https://www.roytuts.com/UserService", partName = "getUserDetailsResponse")
     public GetUserDetailsResponse getUserDetails(
-        @WebParam(partName = "getUserDetailsRequest", name = "getUserDetailsRequest", targetNamespace = "https://www.jeejava.com/UserService")
+        @WebParam(partName = "getUserDetailsRequest", name = "getUserDetailsRequest", targetNamespace = "https://www.roytuts.com/UserService")
         GetUserDetailsRequest getUserDetailsRequest
     );
 }

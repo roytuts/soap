@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:tns="https://www.jeejava.com/UserService"
-	targetNamespace="https://www.jeejava.com/UserService"
+	xmlns:tns="https://www.roytuts.com/UserService"
+	targetNamespace="https://www.roytuts.com/UserService"
 	elementFormDefault="qualified">
 
 	<xs:element name="getUserDetailsRequest">

@@ -1,1 +1,1 @@
-You can read tutorial https://www.jeejava.com/consume-jax-ws-webservice/
+You can read tutorial https://www.roytuts.com/consume-jax-ws-webservice/

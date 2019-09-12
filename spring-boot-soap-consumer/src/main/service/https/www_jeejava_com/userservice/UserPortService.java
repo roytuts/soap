@@ -1,4 +1,4 @@
-package https.www_jeejava_com.userservice;
+package https.www_roytuts_com.userservice;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -16,13 +16,13 @@ import javax.xml.ws.Service;
  */
 @WebServiceClient(name = "UserPortService", 
                   wsdlLocation = "file:/C:/workspace/spring-boot-soap-consumer/src/main/resources/wsdl/users.wsdl",
-                  targetNamespace = "https://www.jeejava.com/UserService") 
+                  targetNamespace = "https://www.roytuts.com/UserService") 
 public class UserPortService extends Service {
 
     public final static URL WSDL_LOCATION;
 
-    public final static QName SERVICE = new QName("https://www.jeejava.com/UserService", "UserPortService");
-    public final static QName UserPortSoap11 = new QName("https://www.jeejava.com/UserService", "UserPortSoap11");
+    public final static QName SERVICE = new QName("https://www.roytuts.com/UserService", "UserPortService");
+    public final static QName UserPortSoap11 = new QName("https://www.roytuts.com/UserService", "UserPortSoap11");
     static {
         URL url = null;
         try {

@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.jeejava</groupId>
+	<groupId>com.roytuts</groupId>
 	<artifactId>soap-contract-first-webservice</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -77,7 +77,7 @@
 									<wsdl>${project.basedir}/src/main/resources/wsdl/user.wsdl</wsdl>
 									<extraargs>
 										<extraarg>-p</extraarg>
-										<extraarg>com.jeejava.soap.contract.first</extraarg>
+										<extraarg>com.roytuts.soap.contract.first</extraarg>
 									</extraargs>
 								</wsdlOption>
 							</wsdlOptions>

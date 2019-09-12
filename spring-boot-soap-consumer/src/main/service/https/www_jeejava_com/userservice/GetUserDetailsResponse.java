@@ -1,5 +1,5 @@
 
-package https.www_jeejava_com.userservice;
+package https.www_roytuts_com.userservice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="users" type="{https://www.jeejava.com/UserService}user" maxOccurs="unbounded" minOccurs="0"/&gt;
+ *         &lt;element name="users" type="{https://www.roytuts.com/UserService}user" maxOccurs="unbounded" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;

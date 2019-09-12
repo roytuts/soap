@@ -1,5 +1,5 @@
 
-package https.www_jeejava_com.userservice;
+package https.www_roytuts_com.userservice;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <wsdl:definitions
 	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-	xmlns:tns="https://www.jeejava.com/UserService"
+	xmlns:tns="https://www.roytuts.com/UserService"
 	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-	targetNamespace="https://www.jeejava.com/UserService">
+	targetNamespace="https://www.roytuts.com/UserService">
 
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 			<xsd:import
-				namespace="https://www.jeejava.com/UserService"
+				namespace="https://www.roytuts.com/UserService"
 				schemaLocation="../xsd/user.xsd" />
 		</xsd:schema>
 	</wsdl:types>

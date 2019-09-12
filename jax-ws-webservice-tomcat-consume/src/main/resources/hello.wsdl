@@ -7,14 +7,14 @@
 	xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy"
 	xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
 	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-	xmlns:tns="http://impl.service.ws.jax.jeejava.com/"
+	xmlns:tns="http://impl.service.ws.jax.roytuts.com/"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns="http://schemas.xmlsoap.org/wsdl/"
-	targetNamespace="http://impl.service.ws.jax.jeejava.com/"
+	targetNamespace="http://impl.service.ws.jax.roytuts.com/"
 	name="HelloImplService">
-	<import namespace="http://service.ws.jax.jeejava.com/"
+	<import namespace="http://service.ws.jax.roytuts.com/"
 		location="http://localhost:8080/jax-ws-webservice-tomcat/hello?wsdl=1" />
-	<binding xmlns:ns1="http://service.ws.jax.jeejava.com/"
+	<binding xmlns:ns1="http://service.ws.jax.roytuts.com/"
 		name="HelloImplPortBinding" type="ns1:Hello">
 		<soap:binding
 			transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
@@ -22,11 +22,11 @@
 			<soap:operation soapAction="" />
 			<input>
 				<soap:body use="literal"
-					namespace="http://service.ws.jax.jeejava.com/" />
+					namespace="http://service.ws.jax.roytuts.com/" />
 			</input>
 			<output>
 				<soap:body use="literal"
-					namespace="http://service.ws.jax.jeejava.com/" />
+					namespace="http://service.ws.jax.roytuts.com/" />
 			</output>
 		</operation>
 	</binding>

@@ -1,5 +1,5 @@
 
-package https.www_jeejava_com.userservice;
+package https.www_roytuts_com.userservice;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -23,7 +23,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="state" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
  *         &lt;element name="zip" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
  *         &lt;element name="country" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *         &lt;element name="addressType" type="{https://www.jeejava.com/UserService}addressType"/&gt;
+ *         &lt;element name="addressType" type="{https://www.roytuts.com/UserService}addressType"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;

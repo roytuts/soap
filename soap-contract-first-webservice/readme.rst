@@ -1,1 +1,1 @@
-You can go through the tutorial https://www.jeejava.com/contract-first-webservice/
+You can go through the tutorial https://www.roytuts.com/contract-first-webservice/

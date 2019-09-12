@@ -2,6 +2,6 @@
 <endpoints
 	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
 	<endpoint name="SoapFileSend"
-		implementation="com.jeejava.soap.service.impl.FileSendServiceImpl"
+		implementation="com.roytuts.soap.service.impl.FileSendServiceImpl"
 		url-pattern="/SoapFileSend" />
 </endpoints>
