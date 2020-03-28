@@ -1,16 +1,15 @@
 plugins {
     id 'java-library'
-    //id 'war'
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 12
+targetCompatibility = 12
 
 repositories {
     mavenCentral()
 	maven {
 		url 'http://maven.java.net/content/repositories/staging/'
-	}    
+	}
 }
 
 dependencies {
