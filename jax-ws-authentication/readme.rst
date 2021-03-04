@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/authentication-example-in-jax-ws-webservice/
+You can read tutorial https://roytuts.com/authentication-example-in-jax-ws-webservice/
