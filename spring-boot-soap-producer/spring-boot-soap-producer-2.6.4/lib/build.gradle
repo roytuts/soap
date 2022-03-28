@@ -1,0 +1,32 @@
+buildscript {
+	ext {
+		springBootVersion = '2.6.4'
+	}
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+    }
+}
+
+plugins {
+    id 'java-library'
+    id 'org.springframework.boot' version "${springBootVersion}"
+    id 'org.unbroken-dome.xjc' version '2.0.0'
+}
+
+sourceCompatibility = 16
+targetCompatibility = 16
+
+sourceSets.main.java.srcDirs "src/generated-sources/java"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation("org.springframework.boot:spring-boot-starter-web-services:${springBootVersion}")
+	implementation("wsdl4j:wsdl4j:1.6.3")
+    implementation 'javax.xml.bind:jaxb-api:2.3.0'
+}
