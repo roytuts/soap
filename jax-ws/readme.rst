@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/jax-ws-webservice-example/
+Please follow the tutorial https://roytuts.com/jax-ws-webservice-example/
